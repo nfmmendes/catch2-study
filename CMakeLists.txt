@@ -9,5 +9,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # These tests need their own main
 find_package(Catch2 3 REQUIRED)
+
 add_executable(minimumExample minimumExample.cpp)
 target_link_libraries(minimumExample PRIVATE Catch2::Catch2WithMain)
+
+add_executable(example1 example1.cpp)
+target_link_libraries(example1 PRIVATE Catch2::Catch2WithMain)
