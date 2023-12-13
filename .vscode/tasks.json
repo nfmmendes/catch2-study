@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cmake",
+            "label": "Build Minimum Example",
+            "command": "build",
+            "targets": [
+                "minimumExample"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
