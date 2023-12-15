@@ -70,6 +70,16 @@
             ],
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "type": "cmake",
+            "label": "Build Example 7",
+            "command": "build",
+            "targets": [
+                "example7"
+            ],
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }
