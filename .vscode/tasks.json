@@ -90,6 +90,16 @@
             ],
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "type": "cmake",
+            "label": "Build Example 9",
+            "command": "build",
+            "targets": [
+                "example9"
+            ],
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }

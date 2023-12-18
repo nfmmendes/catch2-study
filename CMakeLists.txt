@@ -36,3 +36,6 @@ target_link_libraries(example7 PRIVATE Catch2::Catch2WithMain)
 
 add_executable(example8 example8.cpp)
 target_link_libraries(example8 PRIVATE Catch2::Catch2WithMain)
+
+add_executable(example9 example9.cpp)
+target_link_libraries(example9 PRIVATE Catch2::Catch2WithMain)
