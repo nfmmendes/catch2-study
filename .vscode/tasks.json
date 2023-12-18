@@ -80,6 +80,16 @@
             ],
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "type": "cmake",
+            "label": "Build Example 8",
+            "command": "build",
+            "targets": [
+                "example8"
+            ],
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }
